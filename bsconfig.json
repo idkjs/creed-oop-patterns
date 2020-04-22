@@ -1,10 +1,14 @@
 {
   "name": "creed-oop-patterns",
   "version": "0.1.0",
-  "sources": {
+  "sources": [{
     "dir" : "src",
     "subdirs" : true
-  },
+  },{
+    "dir" : "demo",
+    "subdirs" : true
+  }
+],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
