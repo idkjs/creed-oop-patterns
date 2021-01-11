@@ -4,11 +4,14 @@
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "demo1": "node demo/codensity.bs.js",
+    "demo2": "node demo/kindPolymorphism.bs.js",
+    "demo3": "node demo/leibniz.bs.js",
+    "demo4": " node demo/perfectTree.bs.js",
+    "demo5": "node demo/typedDefunctionalisation.bs.js"
   },
-  "keywords": [
-    "BuckleScript"
-  ],
+  "keywords": [ "BuckleScript" ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
